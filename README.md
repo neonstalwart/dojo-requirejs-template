@@ -1,14 +1,26 @@
 #dojo requirejs template app
-this code is a template to demonstrate how to use requirejs to load dojo.  i do not intend to keep 
+this code is a template to demonstrate how to use requirejs to load dojo.  i do not intend to keep
 updating this repository - it is just a demo to show how to load dojo with requirejs.
 
-leave comments in the commits if you have any questions and i'll try to answer them inline as well 
+leave comments in the commits if you have any questions and i'll try to answer them inline as well
 as update this readme so that others can find answers here easily.
+
+##getting started
+    git clone git://github.com/neonstalwart/dojo-requirejs-template.git
+    cd dojo-requirejs-template
+    git submodule init
+    git submodule update
+    # at this point you can view dojo-requirejs-template/src/index.html
+    cd src
+    requirejs/build/build.sh sample.build.js
+    # when this completes you can view dojo-requirejs-template/build/index.html
 
 ##known issues
  - building requirejs and dojo into the same layer doesn't seem to work
+ - i've pointed to my fork of requirejs because there is a patch which is needed.  i have a [pull
+ request](https://github.com/jrburke/requirejs/pull/40) waiting to be applied.
 
 ##advice
- - don't actually layout your folders the same way as this template.  i only did it this way so 
- that i could use git submodules.  instead of including the whole requirejs project, i would only 
+ - don't actually layout your folders the same way as this template.  i only did it this way so
+ that i could use git submodules.  instead of including the whole requirejs project, i would only
  include require.js and the require folder (if you need any plugins) as siblings of dojo and dijit.
