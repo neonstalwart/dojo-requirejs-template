@@ -6,12 +6,9 @@ leave comments in the commits if you have any questions and i'll try to answer t
 as update this readme so that others can find answers here easily.
 
 ##getting started
-    git clone git://github.com/neonstalwart/dojo-requirejs-template.git
-    cd dojo-requirejs-template
-    git submodule init
-    git submodule update
+    git clone --recursive git://github.com/neonstalwart/dojo-requirejs-template.git
     # at this point you can view dojo-requirejs-template/src/index.html
-    cd src
+    cd dojo-requirejs-template/src
     requirejs/build/build.sh sample.build.js
     # when this completes you can view dojo-requirejs-template/build/index.html
 
