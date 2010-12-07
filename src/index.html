@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<title>dojo with requirejs test page</title>
+		<link rel="stylesheet" href="dojo/resources/dojo.css" type="text/css">
+		<script>
+			// configure require.js
+			require = {
+				paths: {
+					app: '../app',
+					dojo: '../dojo',
+					dijit: '../dijit'
+				},
+				deps: ['dojo'],
+				ready: function () {
+					require(['dojo', 'app/App', 'app/config'], function (d, App, config) {
+						var app = new App(config, d.byId('app'));
+						app.startup();
+					});
+				}
+			};
+
+			// configure dojo
+			djConfig = {
+				afterOnLoad: true,
+				baseUrl: './'
+			};
+		</script>
+		<script type="text/javascript" src="requirejs/require.js"></script>
+	</head>
+
+	<body>
+		<h1>dojo with requirejs test page</h1>
+		<div id="app"></div>
+	</body>
+</html>
+
