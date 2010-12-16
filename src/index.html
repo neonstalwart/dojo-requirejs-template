@@ -12,7 +12,7 @@
 					dojo: '../dojo',
 					dijit: '../dijit'
 				},
-				deps: ['dojo'],
+				deps: ['dojo.js'],
 				ready: function () {
 					require(['dojo', 'app/App', 'app/config'], function (d, App, config) {
 						var app = new App(config, d.byId('app'));
