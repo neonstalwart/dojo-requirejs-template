@@ -13,9 +13,7 @@ as update this readme so that others can find answers here easily.
     # when this completes you can view dojo-requirejs-template/build/index.html
 
 ##known issues
- - building requirejs and dojo into the same layer doesn't seem to work
- - i've pointed to my fork of requirejs because there is a patch which is needed.  i have a [pull
- request](https://github.com/jrburke/requirejs/pull/40) waiting to be applied.
+ - building requirejs and dojo into the same layer doesn't seem to work (need to confirm this)
 
 ##advice
  - don't actually layout your folders the same way as this template.  i only did it this way so
