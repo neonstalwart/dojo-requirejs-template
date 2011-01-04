@@ -7,12 +7,18 @@
 		<script>
 			// configure require.js
 			require = {
+				packages: [
+					{
+						name: 'dojo',
+						location: '../dojo',
+						main:'./_base/_loader/package-main',
+						lib: '.'
+					}
+				],
 				paths: {
 					app: '../app',
-					dojo: '../dojo',
 					dijit: '../dijit'
 				},
-				deps: ['dojo.js'],
 				ready: function () {
 					require(['dojo', 'app/App', 'app/config'], function (d, App, config) {
 						var app = new App(config, d.byId('app'));
