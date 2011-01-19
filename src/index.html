@@ -20,8 +20,8 @@
 					dijit: '../dijit'
 				},
 				ready: function () {
-					require(['dojo', 'app/App', 'app/config'], function (d, App, config) {
-						var app = new App(config, d.byId('app'));
+					require(['app/App', 'app/config'], function (App, config) {
+						var app = new App(config, 'app');
 						app.startup();
 					});
 				}
