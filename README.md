@@ -14,6 +14,7 @@ as update this readme so that others can find answers here easily.
 
 ##known issues
  - building requirejs and dojo into the same layer doesn't seem to work (need to confirm this)
+ - afaik, requirejs(0.22.0) does not yet support building packages so the build is currently broken
 
 ##advice
  - don't actually layout your folders the same way as this template.  i only did it this way so
