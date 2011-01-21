@@ -31,7 +31,7 @@
 		{
 			name: 'dojo',
 			location: 'dojo-sie',
-			main:'./_base/_loader/package-main',
+			main:'lib/main-browser',
 			lib: '.'
 		}
 	],
