@@ -7,17 +7,17 @@
 		<script>
 			// configure require.js
 			require = {
+				baseUrl: './',
 				packages: [
 					{
 						name: 'dojo',
-						location: '../dojo',
+						location: 'dojo',
 						main:'./_base/_loader/package-main',
 						lib: '.'
 					}
 				],
 				paths: {
-					app: '../app',
-					dijit: '../dijit'
+					require: 'requirejs/require'
 				},
 				ready: function () {
 					require(['app/App', 'app/config'], function (App, config) {
