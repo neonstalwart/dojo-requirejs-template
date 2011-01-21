@@ -26,12 +26,20 @@
 	},
 
 	locale: 'en-us',
+    
+    packages: [
+    	{
+    		name: 'dojo',
+    		location: '../dojo',
+    		main:'./_base/_loader/package-main',
+    		lib: '.'
+    	}
+    ],
 
 	modules: [
 		{
-			name: 'dojo',
+			name: 'app/App',
 			include: [
-				'app/App',
 				'app/config'
 			]
 		}
