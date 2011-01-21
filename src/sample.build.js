@@ -26,15 +26,15 @@
 	},
 
 	locale: 'en-us',
-    
-    packages: [
-    	{
-    		name: 'dojo',
-    		location: '../dojo',
-    		main:'./_base/_loader/package-main',
-    		lib: '.'
-    	}
-    ],
+	
+	packages: [
+		{
+			name: 'dojo',
+			location: '../dojo',
+			main:'./_base/_loader/package-main',
+			lib: '.'
+		}
+	],
 
 	modules: [
 		{
