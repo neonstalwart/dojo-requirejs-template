@@ -9,4 +9,4 @@
 	url = git://github.com/dojo/dijit.git
 [submodule "src/dojo-sie"]
 	path = src/dojo-sie
-	url = https://github.com/altoviso/dojo-sie-dojo.git
+	url = git@github.com:neonstalwart/dojo-sie-dojo.git
