@@ -33,6 +33,12 @@
 			location: 'dojo',
 			main:'lib/main-browser',
 			lib: '.'
+		},
+		{
+			name: 'dijit',
+			location: 'dijit',
+			main:'lib/main',
+			lib: '.'
 		}
 	],
 
