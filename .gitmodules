@@ -7,6 +7,3 @@
 [submodule "src/dijit"]
 	path = src/dijit
 	url = git://github.com/dojo/dijit.git
-[submodule "src/dojo-sie"]
-	path = src/dojo-sie
-	url = git@github.com:neonstalwart/dojo-sie-dojo.git

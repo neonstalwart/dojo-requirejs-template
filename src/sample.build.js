@@ -30,7 +30,7 @@
 	packages: [
 		{
 			name: 'dojo',
-			location: 'dojo-sie',
+			location: 'dojo',
 			main:'lib/main-browser',
 			lib: '.'
 		}
