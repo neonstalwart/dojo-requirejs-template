@@ -22,7 +22,7 @@
 
 	// need to have requirejs GREATER THAN (not equal) to 0.15.0 for this to do what it needs to do.
 	pragmas: {
-		asynchLoader: true
+		amdLoader: true
 	},
 
 	locale: 'en-us',
