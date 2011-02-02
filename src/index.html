@@ -23,7 +23,9 @@
 					}
 				],
 				paths: {
-					require: 'requirejs/require'
+					require: 'requirejs/require',
+					i18n: 'dojo/lib/plugins/i18n',
+					text: 'dojo/lib/plugins/text'
 				},
 				ready: function () {
 					require(['app/App', 'app/config'], function (App, config) {
