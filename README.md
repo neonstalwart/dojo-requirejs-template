@@ -13,7 +13,7 @@ as update this readme so that others can find answers here easily.
     # when this completes you can view dojo-requirejs-template/build/index.html
 
 ##known issues
- - building requirejs and dojo into the same layer doesn't seem to work (need to confirm this)
+ - dojo's git mirror is currently not in sync.  once it is syncing again, the dojo submodule needs to be updated.
 
 ##advice
  - don't actually layout your folders the same way as this template.  i only did it this way so
