@@ -5,7 +5,7 @@
 	// output directory, relative to this file
 	dir: '../build',
 
-	// closure, closure.keepLines, none
+	// uglify, closure, closure.keepLines, none
 	optimize: 'uglify',
 
 	pragmas: {

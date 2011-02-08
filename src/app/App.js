@@ -15,6 +15,7 @@ define([
 		i18n: i18n,
 
 		buildRendering: function () {
+			// this is just to test some locale specific stuff with dojo
 			this.defaultMonths = locale.getNames('months', 'wide', 'standAlone', d.locale).join(', ');
 			this.frchMonths = locale.getNames('months', 'wide', 'standAlone', 'fr-ch').join(', ');
 			this.inherited(arguments);
