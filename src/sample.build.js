@@ -6,7 +6,7 @@
 	dir: '../build',
 
 	// closure, closure.keepLines, none
-	optimize: 'closure',
+	optimize: 'uglify',
 
 	pragmas: {
 		asynchLoader: true
