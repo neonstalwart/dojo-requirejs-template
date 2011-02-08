@@ -19,3 +19,22 @@ as update this readme so that others can find answers here easily.
  - don't actually layout your folders the same way as this template.  i only did it this way so
  that i could use git submodules.  instead of including the whole requirejs project, i would only
  include require.js and the require folder (if you need any plugins) as siblings of dojo and dijit.
+
+##how to
+to get dojo and dijit to work with requirejs, simply configure requirejs with the information it needs to find the dojo and dijit packages
+    // point to the dojo and dijit packages
+    packages: [
+        {
+            name: 'dojo',
+            location: 'dojo',
+            main:'lib/main-browser',
+            lib: '.'
+        },
+        {
+            name: 'dijit',
+            location: 'dijit',
+            main:'lib/main',
+            lib: '.'
+        }
+    ],
+you'll need to configure the build profile similarly.  ...and that's it.
