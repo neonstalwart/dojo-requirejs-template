@@ -1,3 +1,5 @@
+before you read through all of this, you should know that there is a more complete dojo application boilerplate which is being actively maintained https://github.com/rmurphey/dojo-boilerplate
+
 #dojo requirejs template app
 this code is a template to demonstrate how to use requirejs to load dojo.  i do not intend to keep
 updating this repository - it is just a demo to show how to load dojo with requirejs.
