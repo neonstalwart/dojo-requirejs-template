@@ -1,3 +1,5 @@
+#THIS IS OLD AND ABANDONED - DON'T USE IT
+
 before you read through all of this, you should know that there is a more complete dojo application boilerplate which is being actively maintained https://github.com/rmurphey/dojo-boilerplate
 
 #dojo requirejs template app
